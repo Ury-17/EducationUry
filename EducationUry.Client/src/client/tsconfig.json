@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+	  "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "es5",
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "../../dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "../../node_modules/*"
+      ]
+    },
+
+    "removeComments": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "strictPropertyInitialization": true,
+    "noUnusedLocals": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "dom",
+      "es5",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react"
+  },
+  "include": [
+    "./**/*"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
